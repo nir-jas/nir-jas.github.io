@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `nir-jas.github.io`,
+    siteUrl: `https://nir-jas.github.io`,
     // Your Name
     name: 'Nirmal Jasmatiya',
     // Main Site Title
