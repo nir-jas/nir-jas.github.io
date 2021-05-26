@@ -1,0 +1,17 @@
+- name: Gatsby Publish
+  # You may pin to the exact commit or the version.
+  # uses: enriikke/gatsby-gh-pages-action@1a21a43b6391b7368498813219868e7060f7e6f8
+  uses: enriikke/gatsby-gh-pages-action@v2.1.2
+  with:
+    # A personal access token needed to push your site after it has been built.
+    access-token: 
+    # The branch expected by GitHub to have the static files needed for your site.
+    deploy-branch: # optional, default is master
+    # The repo expected by GitHub to have the static files needed for your site.
+    deploy-repo: # optional, default is 
+    # Additional arguments that get passed to `gatsby build`.
+    gatsby-args: # optional, default is 
+    # Builds your Gatsby site but skips publishing by setting it to `true`. Helpful for testing/debugging Workflows.
+    skip-publish: # optional
+    # The directory where your Gatsby source files are at. `gatsby build` will run from this directory.
+    working-dir: # optional, default is .
