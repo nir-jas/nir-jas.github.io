@@ -7,7 +7,7 @@ module.exports = {
     // Main Site Title
     title: `Nirmal Jasmatiya | Full-Stack Developer`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `Full Stack Developer based in Bangalore, India.`,
     // Optional: Twitter account handle
     author: `@nir_jaz`,
     // Optional: Github account URL
@@ -15,44 +15,37 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/nirmaljasmatiya/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `Master of Computer Applications from AMCEC, VTU. I have 5 years of experience in software development. I will be happy to craft a state of the art product using the following techs: Node, Express, Adonis, HTML, CSS, JavaScript, TypeScript, Vue, React, Angular, MySQL, MongoDB, Redis, GCP, AWS, DigitalOcean, Python, PHP, Laravel, Git, Docker. I am familiar with many others, but these are my favorite. I would always love to expand my knowledge and have hands on other programming languages as well.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
-    projects: [
-      {
-        name: 'Devfolio',
-        description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'ChromeExtensionKit',
-        description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
-      },
-      {
-        name: 'Another Cool Project',
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-    ],
+    // projects: [
+    //   // {
+    //   //   name: 'Devfolio',
+    //   //   description:
+    //   //     'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
+    //   //   link: 'https://github.com/RyanFitzgerald/devfolio',
+    //   // },
+    // ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Multibhashi',
+        description: 'Lead Full-Stack Developer, March 2018 - Present',
+        link: 'https://multibhashi.com',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Itilite',
+        description: 'Full-Stack Developer, June 2017 - March 2018',
+        link: 'https://itilite.com',
       },
       {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'HappyLocate',
+        description: 'Software Developer, January 2017 - June 2017',
+        link: 'https://happylocate.com',
+      },
+      {
+        name: 'TripMidas',
+        description: 'Junior Programmer, April 2016 - January 2017',
+        link: '',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
@@ -60,16 +53,16 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'JavaScript, TypeScript, Node.js, Express.js, Adonis.js, Vue, React, Angular,  Python, PHP, Laravel',
       },
       {
         name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        description: 'MongoDB, PostreSQL, MySQL, DynamoDB',
       },
       {
         name: 'Other',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'Docker, Amazon Web Services (AWS), Google Cloud Platform (GCP), DigitalOcean, CI / CD, Microservices, API design, Agile / Scrum, System Design',
       },
     ],
   },
@@ -119,17 +112,17 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: `ADD YOUR TRACKING ID HERE`, // Optional Google Analytics
+        trackingId: `G-0FPH86J5ZG`, // Optional Google Analytics
       },
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `devfolio`,
-        short_name: `devfolio`,
+        name: `Nirmal Jasmatiya`,
+        short_name: `Nirmal`,
         start_url: `/`,
         background_color: `#663399`,
-        theme_color: `#663399`, // This color appears on mobile
+        theme_color: `#2f3e46`, // This color appears on mobile
         display: `minimal-ui`,
         icon: `src/images/icon.png`,
       },
