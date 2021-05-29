@@ -1,6 +1,12 @@
 import { Link } from 'gatsby';
 import get from 'lodash/get';
 import React from 'react';
+import {
+  IoLogoGithub as IconGithub,
+  IoLogoTwitter as IconTwitter,
+  IoLogoLinkedin as IconLinkedin,
+  IoChatbox as IconBlog
+} from 'react-icons/io5';
 
 import profileImg from '../../images/profile.jpg';
 
@@ -10,11 +16,11 @@ const classes = {
   image: 'rounded-full transform transition-all duration-150 hover:scale-105',
   contentWrapper: 'flex-none pt-6 md:pt-1 md:flex-1 md:pl-20',
   name: 'text-5xl text-gray-900 dark:text-white font-bold leading-tight hover:text-black dark:hover:text-blue-200',
-  description: 'text-gray-600 dark:text-gray-200',
+  description: 'text-gray-200 dark:text-gray-300 italic',
   list: 'mt-6 uppercase tracking-wider',
   item: 'inline list-none pr-4',
-  link:
-    'inline-block py-2 font-semibold text-xs text-gray-600 hover:text-black dark:text-gray-100 dark:hover:text-blue-400',
+  link: 'inline-flex items-center py-2 font-semibold text-xs text-gray-600 hover:text-black dark:text-gray-100 dark:hover:text-blue-400',
+  linkName: 'ml-1'
 };
 
 const Header = ({ metadata = {}, noBlog = false }) => {
@@ -41,28 +47,28 @@ const Header = ({ metadata = {}, noBlog = false }) => {
                 className={classes.link}
                 href={`https://twitter.com/${twitter}`}
               >
-                Twitter
+                <IconTwitter /> <span className={classes.linkName}>Twitter</span>
               </a>
             </li>
           )}
           {github && (
             <li className={classes.item}>
               <a className={classes.link} href={github}>
-                GitHub
+                <IconGithub /> <span className={classes.linkName}>GitHub</span>
               </a>
             </li>
           )}
           {linkedin && (
             <li className={classes.item}>
               <a className={classes.link} href={linkedin}>
-                LinkedIn
+                <IconLinkedin /> <span className={classes.linkName}>LinkedIn</span>
               </a>
             </li>
           )}
           {!noBlog && (
             <li className={classes.item}>
               <Link className={classes.link} to="/blog">
-                Blog
+                <IconBlog /> <span className={classes.linkName}>Blog</span>
               </Link>
             </li>
           )}
