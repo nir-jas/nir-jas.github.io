@@ -108,6 +108,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-postcss`,
+    `gatsby-plugin-dark-mode`,
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-google-analytics`,
@@ -121,7 +122,7 @@ module.exports = {
         name: `Nirmal Jasmatiya`,
         short_name: `Nirmal`,
         start_url: `/`,
-        background_color: `#663399`,
+        background_color: `#2f3e46`,
         theme_color: `#2f3e46`, // This color appears on mobile
         display: `minimal-ui`,
         icon: `src/images/icon.png`,
