@@ -25,11 +25,10 @@ const Layout = ({ children }) => {
             height="20"
             patternUnits="userSpaceOnUse"
           >
-            <rect
-              x="0"
-              y="0"
-              width="4"
-              height="4"
+            <circle
+              cx="3"
+              cy="3"
+              r="3"
               className="text-gray-200 dark:text-gray-600 fill-current"
             />
           </pattern>

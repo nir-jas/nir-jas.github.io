@@ -17,14 +17,26 @@ module.exports = {
     // Content of the About Me section
     about: `Master of Computer Applications from AMCEC, VTU. I have 5 years of experience in software development. I will be happy to craft a state of the art product using the following techs: Node, Express, Adonis, HTML, CSS, JavaScript, TypeScript, Vue, React, Angular, MySQL, MongoDB, Redis, GCP, AWS, DigitalOcean, Python, PHP, Laravel, Git, Docker. I am familiar with many others, but these are my favorite. I would always love to expand my knowledge and have hands on other programming languages as well.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
-    // projects: [
-    //   // {
-    //   //   name: 'Devfolio',
-    //   //   description:
-    //   //     'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-    //   //   link: 'https://github.com/RyanFitzgerald/devfolio',
-    //   // },
-    // ],
+    projects: [
+      {
+        name: 'URL short',
+        description:
+          'A URL shortener web application based on the AdonisJS Framework. It is an open-source and easy-to-use URL shortener. It allows you to host your own URL shortener, and gives you many useful features.',
+        link: 'https://github.com/nir-jas/adonis-url-short',
+      },
+      {
+        name: 'Twitter Helpdesk',
+        description:
+          'This app will allow clients to connect their twitter accounts, fetch their tweets and reply to them within the application.',
+        link: 'https://github.com/nir-jas/twitter-helpdesk-app',
+      },
+      {
+        name: 'Vue Chat App',
+        description:
+          'Simple group chat application built with Vue, Socket.io & Adonis JS.',
+        link: 'https://github.com/nir-jas/vue-auth-chat',
+      },
+    ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
