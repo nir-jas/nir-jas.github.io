@@ -40,8 +40,13 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
+        name: 'Powerplay',
+        description: 'Senior Backend Engineer, June 2021 - Present',
+        link: 'https://getpowerplay.in',
+      },
+      {
         name: 'Multibhashi',
-        description: 'Lead Full-Stack Developer, March 2018 - Present',
+        description: 'Lead Full-Stack Developer, March 2018 - June 2021',
         link: 'https://multibhashi.com',
       },
       {
