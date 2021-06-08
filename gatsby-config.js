@@ -42,7 +42,7 @@ module.exports = {
       {
         name: 'Powerplay',
         description: 'Senior Backend Engineer, June 2021 - Present',
-        link: 'https://getpowerplay.in',
+        link: 'https://www.getpowerplay.in',
       },
       {
         name: 'Multibhashi',
