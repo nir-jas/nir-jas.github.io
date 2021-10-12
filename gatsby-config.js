@@ -5,7 +5,7 @@ module.exports = {
     // Your Name
     name: 'Nirmal Jasmatiya',
     // Main Site Title
-    title: `Nirmal Jasmatiya | Full-Stack Developer`,
+    title: `Nirmal Jasmatiya | Full-Stack Developer | Generalist`,
     // Description that goes under your name in main bio
     description: `Full Stack Developer based in Bangalore, India.`,
     // Optional: Twitter account handle
