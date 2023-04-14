@@ -5,7 +5,7 @@ module.exports = {
     // Your Name
     name: 'Nirmal Jasmatiya',
     // Main Site Title
-    title: `Nirmal Jasmatiya | Full-Stack Developer | Generalist`,
+    title: `Nirmal Jasmatiya | Full-Stack Developer | Generalist | Lead Engineer`,
     // Description that goes under your name in main bio
     description: `Full Stack Developer based in Bangalore, India.`,
     // Optional: Twitter account handle
@@ -15,7 +15,7 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/nirmaljasmatiya/`,
     // Content of the About Me section
-    about: `Master of Computer Applications from AMCEC, VTU. I have 5 years of experience in software development. I will be happy to craft a state of the art product using the following techs: Node, Express, Adonis, HTML, CSS, JavaScript, TypeScript, Vue, React, Angular, MySQL, MongoDB, Redis, GCP, AWS, DigitalOcean, Python, PHP, Laravel, Git, Docker. I am familiar with many others, but these are my favorite. I would always love to expand my knowledge and have hands on other programming languages as well.`,
+    about: `Master of Computer Applications from AMCEC, VTU. I have 6+ years of experience in software development. I will be happy to craft a state of the art product using the following techs: Node, Express, Adonis, HTML, CSS, JavaScript, TypeScript, Vue, React, Angular, MySQL, MongoDB, Redis, GCP, AWS, DigitalOcean, Python, PHP, Laravel, Git, Docker. I am familiar with many others, but these are my favorite. I would always love to expand my knowledge and have hands on other programming languages as well.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -74,12 +74,12 @@ module.exports = {
       },
       {
         name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL, DynamoDB',
+        description: 'MongoDB, PostreSQL, MySQL, DynamoDB, Redis',
       },
       {
         name: 'Other',
         description:
-          'Docker, Amazon Web Services (AWS), Google Cloud Platform (GCP), DigitalOcean, CI / CD, Microservices, API design, Agile / Scrum, System Design',
+          'Docker, Amazon Web Services (AWS), Google Cloud Platform (GCP), DigitalOcean, CI / CD, API design, Agile / Scrum, System Design',
       },
     ],
   },
