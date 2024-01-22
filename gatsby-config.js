@@ -5,9 +5,9 @@ module.exports = {
     // Your Name
     name: 'Nirmal Jasmatiya',
     // Main Site Title
-    title: `Nirmal Jasmatiya | Full-Stack Developer | Generalist | Lead Engineer`,
+    title: `Nirmal Jasmatiya | Lead Engineer | Generalist`,
     // Description that goes under your name in main bio
-    description: `Full Stack Developer based in Bangalore, India.`,
+    description: `Product Engineer based in Bangalore, India.`,
     // Optional: Twitter account handle
     author: `@nir_jaz`,
     // Optional: Github account URL
@@ -15,7 +15,7 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/nirmaljasmatiya/`,
     // Content of the About Me section
-    about: `Master of Computer Applications from AMCEC, VTU. I have 6+ years of experience in software development. I will be happy to craft a state of the art product using the following techs: Node, Express, Adonis, HTML, CSS, JavaScript, TypeScript, Vue, React, Angular, MySQL, MongoDB, Redis, GCP, AWS, DigitalOcean, Python, PHP, Laravel, Git, Docker. I am familiar with many others, but these are my favorite. I would always love to expand my knowledge and have hands on other programming languages as well.`,
+    about: `Results-driven and innovative Software Engineer with a track record of success in developing and implementing cutting-edge software solutions to drive business productivity. With over 6 years of experience, I possess deep expertise in the full software development lifecycle and have a proven ability to manage projects from inception to delivery. A hands-on leader, I excel at leading cross-functional teams in dynamic and deadline-oriented environments, ensuring the timely completion of projects while adhering to budgetary requirements.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -40,8 +40,13 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
+        name: 'Rattle',
+        description: 'Senior Backend Engineer, May 2023 - Present',
+        link: 'https://www.gorattle.com',
+      },
+      {
         name: 'Powerplay',
-        description: 'Senior Backend Engineer, June 2021 - Present',
+        description: 'Senior Backend Engineer, June 2021 - May 2023',
         link: 'https://www.getpowerplay.in',
       },
       {
@@ -79,7 +84,7 @@ module.exports = {
       {
         name: 'Other',
         description:
-          'Docker, Amazon Web Services (AWS), Google Cloud Platform (GCP), DigitalOcean, CI / CD, API design, Agile / Scrum, System Design',
+          'Docker, Amazon Web Services (AWS), Google Cloud Platform (GCP), DigitalOcean, CI / CD, API design, Agile / Scrum, System Design, Product Management, Product Design',
       },
     ],
   },
