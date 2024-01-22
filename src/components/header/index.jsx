@@ -21,7 +21,7 @@ const classes = {
   description: 'text-gray-600 dark:text-gray-300 italic',
   list: 'mt-6 uppercase tracking-wider',
   item: 'inline list-none pr-4',
-  link: 'inline-flex items-center py-2 font-semibold text-xs text-gray-600 hover:text-black dark:text-gray-100 dark:hover:text-blue-400',
+  link: 'inline-flex items-center py-2 font-semibold text-xs text-gray-600 hover:text-black dark:text-gray-100 dark:hover:text-blue-400 cursor-pointer',
   linkName: 'ml-1'
 };
 
