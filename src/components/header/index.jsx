@@ -8,6 +8,8 @@ import {
   IoChatbox as IconBlog
 } from 'react-icons/io5';
 
+import { SiPeerlist } from "react-icons/si";
+
 import profileImg from '../../images/profile.jpg';
 
 const classes = {
@@ -27,6 +29,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
   const twitter = get(metadata, 'author', false);
   const github = get(metadata, 'github', false);
   const linkedin = get(metadata, 'linkedin', false);
+  const peerlist = get(metadata, 'peerlist', false);
 
   return (
     <div className={classes.wrapper}>
@@ -62,6 +65,13 @@ const Header = ({ metadata = {}, noBlog = false }) => {
             <li className={classes.item}>
               <a className={classes.link} href={linkedin}>
                 <IconLinkedin /> <span className={classes.linkName}>LinkedIn</span>
+              </a>
+            </li>
+          )}
+          {peerlist && (
+            <li className={classes.item}>
+              <a className={classes.link} href={peerlist}>
+              <SiPeerlist /> <span className={classes.linkName}>Peerlist</span>
               </a>
             </li>
           )}

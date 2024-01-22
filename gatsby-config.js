@@ -14,6 +14,8 @@ module.exports = {
     github: `https://github.com/nir-jas`,
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/nirmaljasmatiya/`,
+    // Optional: PeerList account URL
+    peerlist: `https://pl.nirmaljasmatiya.com`,
     // Content of the About Me section
     about: `Results-driven and innovative Software Engineer with a track record of success in developing and implementing cutting-edge software solutions to drive business productivity. With over 7 years of experience, I possess deep expertise in the full software development lifecycle and have a proven ability to manage projects from inception to delivery. A hands-on leader, I excel at leading cross-functional teams in dynamic and deadline-oriented environments, ensuring the timely completion of projects while adhering to budgetary requirements.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
